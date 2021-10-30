@@ -1,0 +1,141 @@
+@media (max-width:1048px){
+    label.logo{
+        font-size: 32px;
+        padding: 2px 13px 2px 13px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
+@media (max-width:909px) {
+    nav #icon{
+        display: block;
+    }
+     nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #5c4bf6;
+        top: 62px;
+        left: 100%;
+        text-align: center;
+        /* transition: all .5s;  */
+    }
+    nav li{
+        display: block;
+        margin: px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #ffffff;
+    }
+    a:hover{
+        background: white;
+        color: black;
+    }
+    nav ul.show{
+    left: 0;
+    }
+    .search input{
+        left: 197px;
+        position: relative;
+        bottom: 61px;
+        padding: 10px;
+        padding-right: 10px;
+        padding-right: 10px;
+        padding-right: 0px;
+        border-radius: 5px;
+        border: 0px;
+    }
+    .btn{
+        position: relative;
+left: 196px;
+bottom: 61px;
+padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+padding-right: 10px;
+padding-left: 10px;
+padding-right: 15px;
+padding-left: 15px;
+border-radius: 5px;
+border: 0;
+cursor: pointer;
+background-color: #00ffe7;
+    }
+    .card{
+        max-width: 91vw;
+        margin: 37px auto;
+        font-family: 'Lato', sans-serif;
+        background: white;
+        padding-bottom: 35px;
+    }
+    .cards{
+        display: flex; 
+        /* overflow: scroll; */
+    }
+    .card-item{
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 6px;
+        width: 80px;
+    }
+    h2{
+        font-family: 'Lato', sans-serif;
+        margin-left: 16px;
+        margin-top: 23px;
+    }
+    .my-1{
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    
+    .my-2{
+        margin: 26px 0;
+        margin-left: 53px;
+        font-size: 12px;
+    }
+    .my-a{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .my-c{
+        color: red;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .big{
+        display: flex;
+    }
+    .box1{
+        background-color: rgb(255, 255, 255);
+    float: right;
+    width: 29%;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 12px;
+    }
+    .box2{
+        background-color: rgb(255, 255, 255);
+    margin-left: 16px;
+    width: 29%;
+    height: 270px;
+    margin-top: 12px;
+    }
+    .box3{
+        background-color: rgb(255, 255, 255);
+    margin-left: 16px;
+    width: 29%;
+    height: 270px;
+    margin-top: 12px;
+    }
+}
